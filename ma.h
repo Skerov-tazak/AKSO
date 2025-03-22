@@ -3,6 +3,10 @@
 
 #include <stddef.h>
 #include <stdint.h>
+#include <string.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <errno.h>
 
 typedef struct moore moore_t;
 typedef void (*transition_function_t)(uint64_t *next_state, uint64_t const *input,
